@@ -1,0 +1,29 @@
+
+Clover EFI installer log - Thu Dec 31 02:30:17 PST 2015
+Installer version: v2.3k r3330 EFI bootloader
+======================================================
+/dev/disk0
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *1.0 TB     disk0
+   1:                        EFI NO NAME                 909.1 MB   disk0s1
+   2:       Microsoft Basic Data Untitled                156.4 GB   disk0s2
+   3:       Microsoft Basic Data DATA                    673.4 GB   disk0s3
+   4:                 Linux Swap                         12.0 GB    disk0s4
+   5: 0FC63DAF-8483-4772-8E79-3D69D8477DE4               70.7 GB    disk0s5
+   6:                  Apple_HFS MAcOS                   86.2 GB    disk0s6
+   7:                 Apple_Boot Recovery HD             650.0 MB   disk0s7
+======================================================
+Backing up EFI files
+
+Backing up /Volumes/MAcOS/EFIROOTDIR/EFI folder to /Volumes/MAcOS/EFI-Backups/r/2015-12-31-02h30/EFI
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
+
+Removing drivers64UEFI/VBoxHfs-64.efi driver because HFSPlus driver present
+
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================

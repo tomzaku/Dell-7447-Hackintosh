@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Slice</string>
+	<key>Description</key>
+	<string>Cats are sleeping</string>
+	<key>Theme</key>
+	<dict>
+		<key>Anime</key>
+		<array>
+			<dict>
+				<key>FrameTime</key>
+				<integer>200</integer>
+				<key>Frames</key>
+				<integer>15</integer>
+				<key>ID</key>
+				<integer>1</integer>
+				<key>Path</key>
+				<string>logo_3D</string>
+			</dict>
+		</array>
+		<key>Background</key>
+		<dict>
+			<key>Path</key>
+			<string>MetalBack.png</string>
+			<key>Type</key>
+			<string>Crop</string>
+		</dict>
+		<key>Badges</key>
+		<dict>
+			<key>Inline</key>
+			<false/>
+			<key>Show</key>
+			<false/>
+			<key>Swap</key>
+			<true/>
+		</dict>
+		<key>Banner</key>
+		<string>logo-dawn.png</string>
+		<key>Font</key>
+		<dict>
+			<key>CharWidth</key>
+			<integer>10</integer>
+			<key>Path</key>
+			<string>YoB_Liberation_11W_NA.png</string>
+			<key>Type</key>
+			<string>Load</string>
+		</dict>
+		<key>Layout</key>
+		<dict>
+			<key>MainEntriesSize</key>
+			<integer>200</integer>
+			<key>Vertical</key>
+			<true/>
+		</dict>
+		<key>Selection</key>
+		<dict>
+			<key>Big</key>
+			<string>frame-gold-144.png</string>
+			<key>Color</key>
+			<string>0xA3A3F380</string>
+			<key>Small</key>
+			<string>frame-gold-60.png</string>
+			<key>ChangeNonSelectedGrey</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>Year</key>
+	<string>2012</string>
+</dict>
+</plist>
