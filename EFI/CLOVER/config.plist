@@ -148,34 +148,6 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Still waiting for root 2</string>
-				<key>Find</key>
-				<data>
-				dA5IjT2lkAAA
-				</data>
-				<key>Name</key>
-				<string>IOAHCIBlockStorage</string>
-				<key>Replace</key>
-				<data>
-				v8gAAACQkJCQ
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Patch HD4400/4600 9mb Cursor bytes</string>
-				<key>Find</key>
-				<data>
-				BgAmCgEDAwMAAAACAAAwAQAAYAA=
-				</data>
-				<key>Name</key>
-				<string>AppleIntelFramebufferAzul</string>
-				<key>Replace</key>
-				<data>
-				BgAmCgEDAwMAAAACAAAwAQAAkAA=
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>Still waiting for root 1</string>
 				<key>Find</key>
 				<data>
@@ -190,30 +162,16 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>USB 3.0 Disable XHCI 1.0 check 10.9</string>
+				<string>Still waiting for root 2</string>
 				<key>Find</key>
 				<data>
-				Zj0AAQ==
+				dA5IjT2lkAAA
 				</data>
 				<key>Name</key>
-				<string>AppleUSBXHCI</string>
+				<string>IOAHCIBlockStorage</string>
 				<key>Replace</key>
 				<data>
-				Zj0AAA==
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Enable USB3 after wake for Intel 8</string>
-				<key>Find</key>
-				<data>
-				xoDIAAAAAQ==
-				</data>
-				<key>Name</key>
-				<string>AppleUSBXHCI</string>
-				<key>Replace</key>
-				<data>
-				xoDIAAAAAA==
+				v8gAAACQkJCQ
 				</data>
 			</dict>
 			<dict>
@@ -232,86 +190,30 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>USB 3.0 Patch MSI or pin interrupts #2</string>
+				<string>2nd boot glitch el capitan</string>
 				<key>Find</key>
 				<data>
-				QcdHCAAAQAA=
+				AQAAdRc=
 				</data>
 				<key>Name</key>
-				<string>AppleUSBXHCI</string>
+				<string>IOGraphicsFamily</string>
 				<key>Replace</key>
 				<data>
-				QcdHCAAAAAA=
+				AQAAdBc=
 				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>USB 3.0 Disable Intel USB3 controller check 10.9</string>
+				<string>Patch HD4400/4600 9mb Cursor bytes</string>
 				<key>Find</key>
 				<data>
-				9oDUAAAAgHU6
+				BgAmCgEDAwMAAAACAAAwAQAAYAA=
 				</data>
 				<key>Name</key>
-				<string>AppleUSBXHCI</string>
+				<string>AppleIntelFramebufferAzul</string>
 				<key>Replace</key>
 				<data>
-				9oDUAAAAgOs6
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>USB 3.0 Enable PCI power management</string>
-				<key>Find</key>
-				<data>
-				dU1Ii7voAQAA
-				</data>
-				<key>Name</key>
-				<string>AppleUSBXHCI</string>
-				<key>Replace</key>
-				<data>
-				601Ii7voAQAA
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>USB 3.0 Disable XHCI 1.0 check 10.10</string>
-				<key>Find</key>
-				<data>
-				QbzHAgDgPQABAAA=
-				</data>
-				<key>Name</key>
-				<string>AppleUSBXHCI</string>
-				<key>Replace</key>
-				<data>
-				QbzHAgDgPQAAAAA=
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>USB 3.0 Disable Intel USB3 controller check 10.10</string>
-				<key>Find</key>
-				<data>
-				9oDUAAAAgHU0
-				</data>
-				<key>Name</key>
-				<string>AppleUSBXHCI</string>
-				<key>Replace</key>
-				<data>
-				9oDUAAAAgOs0
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>USB 3.0 Patch MSI or pin interrupts #1</string>
-				<key>Find</key>
-				<data>
-				gUkIAABAAA==
-				</data>
-				<key>Name</key>
-				<string>AppleUSBXHCI</string>
-				<key>Replace</key>
-				<data>
-				gUkIAAAAAA==
+				BgAmCgEDAwMAAAACAAAwAQAAkAA=
 				</data>
 			</dict>
 		</array>
