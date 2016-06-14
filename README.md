@@ -1,5 +1,17 @@
 # Instroduce
 This is all of file for Dell 7447 - core i7 haswell.
+# Hardware
+
+- Graphics HD 4600 : worked
+- NVIDIA : not work
+- Ethenet : worked
+- Audio 255: worded (AppleHDA)
+- Sleep: work
+- Camera: work
+- Battery: work
+- Sdcard: not work
+- Wifi : Not work
+
 # Installing 
  
 - Copy EFI forder for clover
