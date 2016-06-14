@@ -11,7 +11,7 @@ This is all of file for Dell 7447 - core i7 haswell.
 - Battery: work
 - Sdcard: not work
 - Wifi : Not work
-
+- Brightness: Word(Word with Fn)
 # Installing 
  
 - Copy EFI forder for clover
