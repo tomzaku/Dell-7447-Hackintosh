@@ -1,5 +1,5 @@
 # Instroduce
-This is all of file for Dell 7447 - core i7 haswell.
+This is all of file for Dell 7447 - core i7 Haswell 4510HQ- HD4600 - NVIDIA GTX 850M 
 # Hardware
 
 - Graphics HD 4600 : worked
