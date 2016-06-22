@@ -1,0 +1,118 @@
+41:719  24:205  Found UEFI Acpi 2.0 RSDP at CAC18000
+41:719  0:000  Saving ACPI tables from RSDP CAC18000 to EFI\CLOVER\ACPI\origin ...
+41:719  0:000   CAC18000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+41:727  0:008    (Xsdt: CAC180A0, Rsdt: CAC18028)
+41:727  0:000    CAC180A0: 'XSDT', 'QA09   ', Rev: 1, Len: 196
+41:727  0:000    CAC18028: 'RSDT', 'QA09   ', Rev: 1, Len: 116 -> RSDT.aml
+41:732  0:004    Tables in Xsdt: 20
+41:732  0:000    0. CAC243D0: 'FACP', 'QA09', Rev: 5, Len: 268 -> FACP.aml
+41:737  0:004        (Dsdt: CAC181F8, Facs: CB5B8080, XDsdt: CAC181F8, XFacs: 0)
+41:737  0:000        CAC181F8: 'DSDT', 'QA09', Rev: 2, Len: 49621 -> DSDT.aml
+41:745  0:007        CB5B8080: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+41:750  0:004    1. CAC244E0: 'APIC', 'QA09', Rev: 3, Len: 146 -> APIC.aml
+41:754  0:004    2. CAC24578: 'FPDT', 'QA09', Rev: 1, Len: 68 -> FPDT.aml
+41:759  0:004    3. CAC245C0: 'ASF!', ' HCG', Rev: 32, Len: 165 -> ASF!.aml
+41:764  0:004    4. CAC24668: 'SSDT', 'sensrhub', Rev: 1, Len: 552 -> SSDT-0.aml
+41:769  0:004    5. CAC24890: 'SSDT', 'zpodd', Rev: 1, Len: 413 -> SSDT-1.aml
+41:774  0:004    6. CAC24A30: 'SLIC', 'QA09   ', Rev: 1, Len: 374 -> SLIC.aml
+41:779  0:004    7. CAC24BA8: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337 -> SSDT-2.aml
+41:783  0:004    8. CAC250E8: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+ Found hidden SSDT 4 pcs
+41:783  0:000        * C9444A98: '$', '', Rev: 0, Len: 23117  24 05 00 10 4D 5A 00 00 00 00 00 00 00 00 00 00       * CAC03618: 'SSDT', 'ApIst', Rev: 1, Len: 1450  53 53 44 54 AA 05 00 00 01 D3 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-4x.aml
+41:788  0:004        * CAC03C18: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 979  53 53 44 54 D3 03 00 00 01 B3 50 6D 52 65 66 00 Internal length = 979 -> SSDT-5x.aml
+41:793  0:004        * CAC02D98: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 EF 50 6D 52 65 66 00 Internal length = 281 -> SSDT-6x.aml
+41:800  0:007   -> SSDT-3.aml
+41:807  0:006    9. CAC25BC0: 'SSDT', 'CtdpB', Rev: 1, Len: 1078 -> SSDT-7.aml
+41:814  0:006    10. CAC25FF8: 'MCFG', 'QA09', Rev: 1, Len: 60 -> MCFG.aml
+41:821  0:006    11. CAC26038: 'SSDT', 'DptfTabl', Rev: 1, Len: 45412 -> SSDT-8.aml
+41:830  0:009    12. CAC311A0: 'HPET', 'QA09', Rev: 1, Len: 56 -> HPET.aml
+41:838  0:007    13. CAC311D8: 'SSDT', 'SataTabl', Rev: 1, Len: 789 -> SSDT-9.aml
+41:845  0:006    14. CAC314F0: 'SSDT', 'SaSsdt ', Rev: 1, Len: 13663 -> SSDT-10.aml
+41:852  0:007    15. CAC34A50: 'SSDT', 'SgPeg', Rev: 1, Len: 5520 -> SSDT-11.aml
+41:859  0:007    16. CAC35FE0: 'DMAR', 'HSW ', Rev: 1, Len: 184 -> DMAR.aml
+41:866  0:006    17. CAC36098: 'SSDT', 'OptTabl', Rev: 1, Len: 6492 -> SSDT-12.aml
+41:873  0:006    18. CAC379F8: 'BGRT', 'QA09', Rev: 0, Len: 56 -> BGRT.aml
+41:879  0:006    19. CAC37A30: 'SSDT', 'IsctTabl', Rev: 1, Len: 1485 -> SSDT-13.aml
+41:886  0:006    Tables in Rsdt: 20
+41:886  0:000    0. CAC18170: 'FACP', 'QA09', Rev: 2, Len: 132 -> RSDT-FACP.aml
+41:893  0:006        (Dsdt: CAC181F8, Facs: CB5B8040)
+41:893  0:000        CAC181F8: 'DSDT', 'QA09', Rev: 2, Len: 49621 -> RSDT-DSDT.aml
+41:900  0:006        CB5B8040: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+41:904  0:004    1. CAC244E0: 'APIC', 'QA09', Rev: 3, Len: 146 -> RSDT-APIC.aml
+41:908  0:003    2. CAC24578: 'FPDT', 'QA09', Rev: 1, Len: 68 -> RSDT-FPDT.aml
+41:911  0:003    3. CAC245C0: 'ASF!', ' HCG', Rev: 32, Len: 165 -> RSDT-ASF!.aml
+41:914  0:003    4. CAC24668: 'SSDT', 'sensrhub', Rev: 1, Len: 552 -> RSDT-SSDT-0.aml
+41:917  0:003    5. CAC24890: 'SSDT', 'zpodd', Rev: 1, Len: 413 -> RSDT-SSDT-1.aml
+41:921  0:003    6. CAC24A30: 'SLIC', 'QA09   ', Rev: 1, Len: 374 -> RSDT-SLIC.aml
+41:924  0:003    7. CAC24BA8: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337 -> RSDT-SSDT-2.aml
+41:927  0:003    8. CAC250E8: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+ Found hidden SSDT 4 pcs
+41:927  0:000        * C9444A98: '$', '', Rev: 0, Len: 23117  24 05 00 10 4D 5A 00 00 00 00 00 00 00 00 00 00       * CAC03618: 'SSDT', 'ApIst', Rev: 1, Len: 1450  53 53 44 54 AA 05 00 00 01 D3 50 6D 52 65 66 00 Internal length = 1450 -> RSDT-SSDT-4x.aml
+41:930  0:003        * CAC03C18: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 979  53 53 44 54 D3 03 00 00 01 B3 50 6D 52 65 66 00 Internal length = 979 -> RSDT-SSDT-5x.aml
+41:934  0:003        * CAC02D98: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 EF 50 6D 52 65 66 00 Internal length = 281 -> RSDT-SSDT-6x.aml
+41:937  0:003   -> RSDT-SSDT-3.aml
+41:940  0:003    9. CAC25BC0: 'SSDT', 'CtdpB', Rev: 1, Len: 1078 -> RSDT-SSDT-7.aml
+41:944  0:003    10. CAC25FF8: 'MCFG', 'QA09', Rev: 1, Len: 60 -> RSDT-MCFG.aml
+41:947  0:003    11. CAC26038: 'SSDT', 'DptfTabl', Rev: 1, Len: 45412 -> RSDT-SSDT-8.aml
+41:953  0:006    12. CAC311A0: 'HPET', 'QA09', Rev: 1, Len: 56 -> RSDT-HPET.aml
+41:956  0:003    13. CAC311D8: 'SSDT', 'SataTabl', Rev: 1, Len: 789 -> RSDT-SSDT-9.aml
+41:960  0:003    14. CAC314F0: 'SSDT', 'SaSsdt ', Rev: 1, Len: 13663 -> RSDT-SSDT-10.aml
+41:964  0:004    15. CAC34A50: 'SSDT', 'SgPeg', Rev: 1, Len: 5520 -> RSDT-SSDT-11.aml
+41:967  0:003    16. CAC35FE0: 'DMAR', 'HSW ', Rev: 1, Len: 184 -> RSDT-DMAR.aml
+41:971  0:003    17. CAC36098: 'SSDT', 'OptTabl', Rev: 1, Len: 6492 -> RSDT-SSDT-12.aml
+41:974  0:003    18. CAC379F8: 'BGRT', 'QA09', Rev: 0, Len: 56 -> RSDT-BGRT.aml
+41:980  0:005    19. CAC37A30: 'SSDT', 'IsctTabl', Rev: 1, Len: 1485 -> RSDT-SSDT-13.aml
+41:985  0:005  Found UEFI Acpi 1.0 RSDP at CAC18000
+41:985  0:000  Printing ACPI tables from RSDP CAC18000 ...
+41:985  0:000   CAC18000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+41:985  0:000    (Xsdt: CAC180A0, Rsdt: CAC18028)
+41:985  0:000    CAC180A0: 'XSDT', 'QA09   ', Rev: 1, Len: 196
+41:985  0:000    CAC18028: 'RSDT', 'QA09   ', Rev: 1, Len: 116
+41:985  0:000    Tables in Xsdt: 20
+41:985  0:000    0. CAC243D0: 'FACP', 'QA09', Rev: 5, Len: 268
+41:985  0:000        (Dsdt: CAC181F8, Facs: CB5B8080, XDsdt: CAC181F8, XFacs: 0)
+41:985  0:000        CAC181F8: 'DSDT', 'QA09', Rev: 2, Len: 49621
+41:989  0:003        CB5B8080: 'FACS', Ver: 2, Len: 64
+41:989  0:000    1. CAC244E0: 'APIC', 'QA09', Rev: 3, Len: 146
+41:989  0:000    2. CAC24578: 'FPDT', 'QA09', Rev: 1, Len: 68
+41:989  0:000    3. CAC245C0: 'ASF!', ' HCG', Rev: 32, Len: 165
+41:989  0:000    4. CAC24668: 'SSDT', 'sensrhub', Rev: 1, Len: 552
+41:989  0:000    5. CAC24890: 'SSDT', 'zpodd', Rev: 1, Len: 413
+41:989  0:000    6. CAC24A30: 'SLIC', 'QA09   ', Rev: 1, Len: 374
+41:989  0:000    7. CAC24BA8: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+41:989  0:000    8. CAC250E8: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+41:989  0:000    9. CAC25BC0: 'SSDT', 'CtdpB', Rev: 1, Len: 1078
+41:989  0:000    10. CAC25FF8: 'MCFG', 'QA09', Rev: 1, Len: 60
+41:989  0:000    11. CAC26038: 'SSDT', 'DptfTabl', Rev: 1, Len: 45412
+41:989  0:000    12. CAC311A0: 'HPET', 'QA09', Rev: 1, Len: 56
+41:989  0:000    13. CAC311D8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+41:989  0:000    14. CAC314F0: 'SSDT', 'SaSsdt ', Rev: 1, Len: 13663
+41:989  0:000    15. CAC34A50: 'SSDT', 'SgPeg', Rev: 1, Len: 5520
+41:989  0:000    16. CAC35FE0: 'DMAR', 'HSW ', Rev: 1, Len: 184
+41:989  0:000    17. CAC36098: 'SSDT', 'OptTabl', Rev: 1, Len: 6492
+41:989  0:000    18. CAC379F8: 'BGRT', 'QA09', Rev: 0, Len: 56
+41:989  0:000    19. CAC37A30: 'SSDT', 'IsctTabl', Rev: 1, Len: 1485
+41:989  0:000    Tables in Rsdt: 20
+41:989  0:000    0. CAC18170: 'FACP', 'QA09', Rev: 2, Len: 132
+41:989  0:000        (Dsdt: CAC181F8, Facs: CB5B8040)
+41:989  0:000        CAC181F8: 'DSDT', 'QA09', Rev: 2, Len: 49621
+41:992  0:003        CB5B8040: 'FACS', Ver: 0, Len: 64
+41:992  0:000    1. CAC244E0: 'APIC', 'QA09', Rev: 3, Len: 146
+41:992  0:000    2. CAC24578: 'FPDT', 'QA09', Rev: 1, Len: 68
+41:992  0:000    3. CAC245C0: 'ASF!', ' HCG', Rev: 32, Len: 165
+41:992  0:000    4. CAC24668: 'SSDT', 'sensrhub', Rev: 1, Len: 552
+41:992  0:000    5. CAC24890: 'SSDT', 'zpodd', Rev: 1, Len: 413
+41:992  0:000    6. CAC24A30: 'SLIC', 'QA09   ', Rev: 1, Len: 374
+41:992  0:000    7. CAC24BA8: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+41:992  0:000    8. CAC250E8: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+41:992  0:000    9. CAC25BC0: 'SSDT', 'CtdpB', Rev: 1, Len: 1078
+41:992  0:000    10. CAC25FF8: 'MCFG', 'QA09', Rev: 1, Len: 60
+41:992  0:000    11. CAC26038: 'SSDT', 'DptfTabl', Rev: 1, Len: 45412
+41:992  0:000    12. CAC311A0: 'HPET', 'QA09', Rev: 1, Len: 56
+41:992  0:000    13. CAC311D8: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+41:992  0:000    14. CAC314F0: 'SSDT', 'SaSsdt ', Rev: 1, Len: 13663
+41:992  0:000    15. CAC34A50: 'SSDT', 'SgPeg', Rev: 1, Len: 5520
+41:992  0:000    16. CAC35FE0: 'DMAR', 'HSW ', Rev: 1, Len: 184
+41:992  0:000    17. CAC36098: 'SSDT', 'OptTabl', Rev: 1, Len: 6492
+41:992  0:000    18. CAC379F8: 'BGRT', 'QA09', Rev: 0, Len: 56
+41:992  0:000    19. CAC37A30: 'SSDT', 'IsctTabl', Rev: 1, Len: 1485
