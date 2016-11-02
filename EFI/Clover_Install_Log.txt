@@ -1,29 +1,44 @@
 
-Clover EFI installer log - Thu Dec 31 02:30:17 PST 2015
-Installer version: v2.3k r3330 EFI bootloader
+Clover EFI installer log - Tue Nov  1 21:31:53 ICT 2016
+Installer version: v2.3k r3793 EFI bootloader
 ======================================================
-/dev/disk0
+/dev/disk0 (internal, physical):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
-   0:      GUID_partition_scheme                        *1.0 TB     disk0
-   1:                        EFI NO NAME                 909.1 MB   disk0s1
-   2:       Microsoft Basic Data Untitled                156.4 GB   disk0s2
-   3:       Microsoft Basic Data DATA                    673.4 GB   disk0s3
-   4:                 Linux Swap                         12.0 GB    disk0s4
-   5: 0FC63DAF-8483-4772-8E79-3D69D8477DE4               70.7 GB    disk0s5
-   6:                  Apple_HFS MAcOS                   86.2 GB    disk0s6
-   7:                 Apple_Boot Recovery HD             650.0 MB   disk0s7
+   0:      GUID_partition_scheme                        *240.1 GB   disk0
+   1:                        EFI                         645.9 MB   disk0s1
+   2:                  Apple_HFS Install macOS Sierra    68.2 GB    disk0s2
+   3:                  Apple_HFS Install macOS Sierra    22.4 GB    disk0s3
+   4:                  Apple_HFS OSX                     147.3 GB   disk0s4
+   5:                 Apple_Boot Recovery HD             650.0 MB   disk0s5
+/dev/disk1 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *1.0 TB     disk1
+   1:       Microsoft Basic Data DATA                    716.7 GB   disk1s1
+   2:           Linux Filesystem                         41.9 GB    disk1s2
+   3:       Microsoft Basic Data CLOUD                   25.5 GB    disk1s3
+   4:       Microsoft Basic Data                         362.8 MB   disk1s4
+   5:                  Apple_HFS Sierra                  46.2 GB    disk1s5
+   6:                 Linux Swap                         12.0 GB    disk1s6
+   7:           Linux Filesystem                         70.7 GB    disk1s7
+   8:                  Apple_HFS GIT                     86.9 GB    disk1s8
+/dev/disk2 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *31.5 GB    disk2
+   1:                        EFI EFI                     209.7 MB   disk2s1
+   2:       Microsoft Basic Data EFI                     10.3 GB    disk2s2
+   3:                  Apple_HFS OS X Base System        20.7 GB    disk2s3
 ======================================================
 Backing up EFI files
 
-Backing up /Volumes/MAcOS/EFIROOTDIR/EFI folder to /Volumes/MAcOS/EFI-Backups/r/2015-12-31-02h30/EFI
+Backing up /Volumes/EFI/EFIROOTDIR/EFI folder to /Volumes/EFI/EFI-Backups/r3793/2016-11-01-21h31/EFI
 ======================================================
 Installing BootSectors/BootLoader
 
-Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
-Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /Volumes/EFI
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /Volumes/EFI
 
-Removing drivers64UEFI/VBoxHfs-64.efi driver because HFSPlus driver present
-
+Theme 'eicapitan' (defined in config.plist) not found !
+Using default theme 'embedded'
 ======================================================
 =========== Clover EFI Installation Finish ===========
 ======================================================
