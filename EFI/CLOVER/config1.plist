@@ -10,6 +10,11 @@
 			<false/>
 			<key>DropOEM_DSM</key>
 			<false/>
+			<key>Fixes</key>
+			<dict>
+				<key>FixHDA_8000</key>
+				<true/>
+			</dict>
 			<key>ReuseFFFF</key>
 			<false/>
 		</dict>
@@ -43,12 +48,17 @@
 		<key>XMPDetection</key>
 		<string>Yes</string>
 	</dict>
+	<key>CPU</key>
+	<dict>
+		<key>UseARTFrequency</key>
+		<false/>
+	</dict>
 	<key>Devices</key>
 	<dict>
 		<key>Audio</key>
 		<dict>
-			<key>ResetHDA</key>
-			<true/>
+			<key>Inject</key>
+			<string>13</string>
 		</dict>
 		<key>FakeID</key>
 		<dict>
@@ -104,6 +114,8 @@
 			<true/>
 			<key>Legacy</key>
 			<false/>
+			<key>Linux</key>
+			<false/>
 			<key>Tool</key>
 			<true/>
 		</dict>
@@ -121,8 +133,6 @@
 			<key>NVidia</key>
 			<false/>
 		</dict>
-		<key>InjectEDID</key>
-		<true/>
 		<key>NvidiaSingle</key>
 		<false/>
 		<key>ig-platform-id</key>
@@ -149,6 +159,8 @@
 			<dict>
 				<key>Comment</key>
 				<string>Still waiting for root 1</string>
+				<key>Disabled</key>
+				<false/>
 				<key>Find</key>
 				<data>
 				60wAAOoD
@@ -162,21 +174,25 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Still waiting for root 2</string>
+				<string>Patch HD4400/4600 9mb Cursor bytes</string>
+				<key>Disabled</key>
+				<false/>
 				<key>Find</key>
 				<data>
-				dA5IjT2lkAAA
+				BgAmCgEDAwMAAAACAAAwAQAAYAA=
 				</data>
 				<key>Name</key>
-				<string>IOAHCIBlockStorage</string>
+				<string>AppleIntelFramebufferAzul</string>
 				<key>Replace</key>
 				<data>
-				v8gAAACQkJCQ
+				BgAmCgEDAwMAAAACAAAwAQAAkAA=
 				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>Enable Trim on SSD</string>
+				<key>Disabled</key>
+				<false/>
 				<key>Find</key>
 				<data>
 				QVBQTEUgU1NE
@@ -191,6 +207,8 @@
 			<dict>
 				<key>Comment</key>
 				<string>2nd boot glitch el capitan</string>
+				<key>Disabled</key>
+				<false/>
 				<key>Find</key>
 				<data>
 				AQAAdRc=
@@ -204,22 +222,26 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Patch HD4400/4600 9mb Cursor bytes</string>
+				<string>Still waiting for root 2</string>
+				<key>Disabled</key>
+				<false/>
 				<key>Find</key>
 				<data>
-				BgAmCgEDAwMAAAACAAAwAQAAYAA=
+				dA5IjT2lkAAA
 				</data>
 				<key>Name</key>
-				<string>AppleIntelFramebufferAzul</string>
+				<string>IOAHCIBlockStorage</string>
 				<key>Replace</key>
 				<data>
-				BgAmCgEDAwMAAAACAAAwAQAAkAA=
+				v8gAAACQkJCQ
 				</data>
 			</dict>
 		</array>
 	</dict>
 	<key>RtVariables</key>
 	<dict>
+		<key>BooterConfig</key>
+		<string>0x28</string>
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
 	</dict>
