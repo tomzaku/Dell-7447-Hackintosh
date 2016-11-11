@@ -39,6 +39,8 @@
 		<string>nvda_drv=1 kext-dev-mode=1 rootless=0</string>
 		<key>Debug</key>
 		<false/>
+		<key>DefaultVolume</key>
+		<string>SIERRA SSD</string>
 		<key>Legacy</key>
 		<string>LegacyBiosDefault</string>
 		<key>Secure</key>
@@ -124,6 +126,21 @@
 	</dict>
 	<key>Graphics</key>
 	<dict>
+		<key>EDID</key>
+		<dict>
+				<key>Custom</key>
+			<data>
+			AP///////wAGEPKcAAAAABoVAQSVGg54Au8Fl1dUkiciUFQAAAABAQEBAQEBAQEBAQEB
+			AQEB0B1W9FAAFjAwIDUANa4QAAAZAAAA/ABDb2xvciBMQ0QKICAgAAAA/gBMRyBEaXNw
+			bGF5CiAgAAAA/gBMUDE0MFdIOC1UUEcxAFw=
+			</data>
+			<key>Inject</key>
+			<true/>
+			<key>ProductID</key>
+			<string>40178</string>
+			<key>VendorID</key>
+			<string>1552</string>
+		</dict>
 		<key>Inject</key>
 		<dict>
 			<key>ATI</key>
@@ -158,6 +175,22 @@
 		<array>
 			<dict>
 				<key>Comment</key>
+				<string>Still waiting for root 1</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				60wAAOoD
+				</data>
+				<key>Name</key>
+				<string>IOAHCIBlockStorage</string>
+				<key>Replace</key>
+				<data>
+				60wAAOgB
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>2nd boot glitch el capitan</string>
 				<key>Disabled</key>
 				<false/>
@@ -170,22 +203,6 @@
 				<key>Replace</key>
 				<data>
 				AQAAdBc=
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Enable Trim on SSD</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				QVBQTEUgU1NE
-				</data>
-				<key>Name</key>
-				<string>IOAHCIBlockStorage</string>
-				<key>Replace</key>
-				<data>
-				AAAAAAAAAAAA
 				</data>
 			</dict>
 			<dict>
@@ -206,22 +223,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Still waiting for root 1</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				60wAAOoD
-				</data>
-				<key>Name</key>
-				<string>IOAHCIBlockStorage</string>
-				<key>Replace</key>
-				<data>
-				60wAAOgB
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>Still waiting for root 2</string>
 				<key>Disabled</key>
 				<false/>
@@ -236,14 +237,30 @@
 				v8gAAACQkJCQ
 				</data>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Enable Trim on SSD</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				QVBQTEUgU1NE
+				</data>
+				<key>Name</key>
+				<string>IOAHCIBlockStorage</string>
+				<key>Replace</key>
+				<data>
+				AAAAAAAAAAAA
+				</data>
+			</dict>
 		</array>
 	</dict>
 	<key>RtVariables</key>
 	<dict>
 		<key>BooterConfig</key>
-		<string>0x28</string>
+		<string>0x1a8</string>
 		<key>CsrActiveConfig</key>
-		<string>0x67</string>
+		<string>0x77</string>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
