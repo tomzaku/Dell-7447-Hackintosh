@@ -130,9 +130,10 @@
 		<dict>
 			<key>Custom</key>
 			<data>
-				AP///////wAGEPKcAAAAABoVAQSVHxF4Au8Fl1dUkiciUFQAAAABAQEBAQEBAQEBAQEB
-				AQEB0B1W9FAAFjAwIDUANa4QAAAZAAAA/ABDb2xvciBMQ0QKICAgAAAA/gBMRyBEaXNw
-				bGF5CiAgAAAA/gBMUDE0MFdIOC1UUEcxAFQ=
+			AP///////wAGEPKcAAAAABoVAQSVHxF4Au8Fl1dUkiciUFQAAAAB
+			AQEBAQEBAQEBAQEBAQEB0B1W9FAAFjAwIDUANa4QAAAZAAAA/ABD
+			b2xvciBMQ0QKICAgAAAA/gBMRyBEaXNwbGF5CiAgAAAA/gBMUDE0
+			MFdIOC1UUEcxADE=
 			</data>
 			<key>Inject</key>
 			<true/>
@@ -175,18 +176,34 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Still waiting for root 1</string>
+				<string>Enable Trim on SSD</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
-				60wAAOoD
+				QVBQTEUgU1NE
 				</data>
 				<key>Name</key>
 				<string>IOAHCIBlockStorage</string>
 				<key>Replace</key>
 				<data>
-				60wAAOgB
+				AAAAAAAAAAAA
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Patch HD4400/4600 9mb Cursor bytes</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				BgAmCgEDAwMAAAACAAAwAQAAYAA=
+				</data>
+				<key>Name</key>
+				<string>AppleIntelFramebufferAzul</string>
+				<key>Replace</key>
+				<data>
+				BgAmCgEDAwMAAAACAAAwAQAAkAA=
 				</data>
 			</dict>
 			<dict>
@@ -223,34 +240,18 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Enable Trim on SSD</string>
+				<string>Still waiting for root 1</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
-				QVBQTEUgU1NE
+				60wAAOoD
 				</data>
 				<key>Name</key>
 				<string>IOAHCIBlockStorage</string>
 				<key>Replace</key>
 				<data>
-				AAAAAAAAAAAA
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Patch HD4400/4600 9mb Cursor bytes</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				BgAmCgEDAwMAAAACAAAwAQAAYAA=
-				</data>
-				<key>Name</key>
-				<string>AppleIntelFramebufferAzul</string>
-				<key>Replace</key>
-				<data>
-				BgAmCgEDAwMAAAACAAAwAQAAkAA=
+				60wAAOgB
 				</data>
 			</dict>
 		</array>
