@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+        "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<script type="text/javascript"> 
+
+	function handleKeyUpEvent (event) {
+		var keyCode = event.keyCode ? event.keyCode : event.which ? event.which : event.charCode;
+		if (keyCode == 13) 
+		{
+			window.SnippetController.accept();
+			return false;
+		} 
+		else
+		{
+			window.SnippetController.onTextInputKeyUp_(event.target.id);
+			return true;
+		}
+	}      
+
+//	function Init () {
+//		var nodes = document.getElementsByTagName ("input");
+//		for (input in nodes)
+//		{
+//			if (input.addEventListener) {
+//				input.addEventListener ("textInput", OnTextInput, false);
+//			}            
+//		}		
+//	}
+//	
+//	function OnTextInput (event) {
+//			window.SnippetController.onTextInputKeyUp_(event.target.id);
+//	}
+		
+</script>
+</head>
+
+<body onload="Init ();">
+
+<div>
+</div>
+
+</body>
+
+</html>
