@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>15A284</string>
+	<string>13E13</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
 	<string>AppleHDAHardwareConfigDriver</string>
 	<key>CFBundleGetInfoString</key>
-	<string>AppleHDAHardwareConfigDriver 276.26, Copyright © 2000-2016 Apple Inc. All rights reserved.</string>
+	<string>AppleHDAHardwareConfigDriver 2.6.3f4, Copyright © 2000-2014 Apple Inc. All rights reserved.</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.apple.driver.AppleHDAHardwareConfigDriver</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -19,29 +19,25 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>276.26</string>
+	<string>2.6.3</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
-	<key>CFBundleSupportedPlatforms</key>
-	<array>
-		<string>MacOSX</string>
-	</array>
 	<key>CFBundleVersion</key>
-	<string>276.26</string>
+	<string>2.6.3f4</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>8R174l</string>
+	<string>5A2053</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>16A320</string>
+	<string>13E13</string>
 	<key>DTSDKName</key>
-	<string>macosx10.12internal</string>
+	<string></string>
 	<key>DTXcode</key>
-	<string>0800</string>
+	<string>0501</string>
 	<key>DTXcodeBuild</key>
-	<string>8R174l</string>
+	<string>5A2053</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>HDA Hardware Config Resource</key>
@@ -55,33 +51,21 @@
 					<data>
 					AwAAAA==
 					</data>
-					<key>Codec</key>
-					<string>InsanelyDeepak - Realtek ALC255</string>
 					<key>CodecID</key>
 					<integer>283902549</integer>
 					<key>ConfigData</key>
 					<data>
-					ASccEAEnHQABJx6mAScfkAFHHCABRx0AAUce
-					FwFHH5ABdxwwAXcdAAF3HgABdx9AAdccQAHX
-					HQAB1x5wAdcfQAIXHFACFx0QAhceIQIXHwIB
-					RwwC
+					AUccIAFHHQABRx4XAUcfkAIXHDACFx0QAhce
+					IQIXHwEBJxxwAScdAAEnHqYBJx+QAUcMAg==
 					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
-					<integer>13</integer>
+					<integer>3</integer>
 				</dict>
 				<dict>
 					<key>CodecID</key>
 					<integer>269697544</integer>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>0</integer>
-				</dict>
-				<dict>
-					<key>CodecID</key>
-					<integer>269714441</integer>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -98,30 +82,6 @@
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>121</integer>
-				</dict>
-				<dict>
-					<key>CodecID</key>
-					<integer>269697544</integer>
-					<key>ConfigData</key>
-					<data>
-					AiccQAInHQACJx7GAicf0A==
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>127</integer>
-				</dict>
-				<dict>
-					<key>CodecID</key>
-					<integer>269697544</integer>
-					<key>ConfigData</key>
-					<data>
-					AiccQAInHQACJx7GAicf0A==
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>129</integer>
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
@@ -312,21 +272,6 @@
 					<integer>122</integer>
 				</dict>
 				<dict>
-					<key>Codec</key>
-					<string>Cirrus Logic CS4206</string>
-					<key>CodecID</key>
-					<integer>269697542</integer>
-					<key>ConfigData</key>
-					<data>
-					APccQAD3HQAA9x7GAPcf0ACXHFAAlx0AAJce
-					wACXH9A=
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>130</integer>
-				</dict>
-				<dict>
 					<key>CodecID</key>
 					<integer>-2088470912</integer>
 					<key>ConfigData</key>
@@ -371,6 +316,40 @@
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>12</integer>
+				</dict>
+				<dict>
+					<key>CodecID</key>
+					<integer>-2088470912</integer>
+					<key>ConfigData</key>
+					<data>
+					AKccUACnHUAApx4rAKcfAQC3HBAAtx0BALce
+					oAC3H5AAxxxAAMcdAQDHHhAAxx+QANcc8ADX
+					HQAA1x4AANcfQADnHPAA5x0AAOceAADnH0AA
+					9xwgAPcdMAD3HosA9x8BAQccYAEHHeABBx5L
+					AQcfAQEXHDABFx3gARceywEXHwEBVxzwAVcd
+					AAFXHgABVx9AAbcc8AG3HQABtx4AAbcfQA==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>14</integer>
+				</dict>
+				<dict>
+					<key>CodecID</key>
+					<integer>-2088470912</integer>
+					<key>ConfigData</key>
+					<data>
+					AKccUACnHUAApx4rAKcfAQC3HBAAtx0BALce
+					oAC3H5AAxxxAAMcdAQDHHhAAxx+QANcc8ADX
+					HQAA1x4AANcfQADnHPAA5x0AAOceAADnH0AA
+					9xwgAPcdMAD3HosA9x8BAQccYAEHHeABBx5L
+					AQcfAQEXHDABFx3gARceywEXHwEBVxzwAVcd
+					AAFXHgABVx9AAbcc8AG3HQABtx4AAbcfQA==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>15</integer>
 				</dict>
 				<dict>
 					<key>CodecID</key>
@@ -448,247 +427,6 @@
 			<string>AppleHDAHardwareConfigDriverLoader</string>
 			<key>PostConstructionInitialization</key>
 			<array>
-				<dict>
-					<key>CodecID</key>
-					<integer>269714441</integer>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>Layouts</key>
-					<array>
-						<integer>0</integer>
-					</array>
-					<key>widgets</key>
-					<array>
-						<dict>
-							<key>NodeID</key>
-							<integer>36</integer>
-							<key>PinConfigDefault</key>
-							<integer>2834464</integer>
-						</dict>
-						<dict>
-							<key>NodeID</key>
-							<integer>37</integer>
-							<key>PinConfigDefault</key>
-							<integer>1073742064</integer>
-						</dict>
-						<dict>
-							<key>NodeID</key>
-							<integer>38</integer>
-							<key>PinConfigDefault</key>
-							<integer>1073742064</integer>
-						</dict>
-						<dict>
-							<key>NodeID</key>
-							<integer>39</integer>
-							<key>PinConfigDefault</key>
-							<integer>1073742064</integer>
-						</dict>
-						<dict>
-							<key>NodeID</key>
-							<integer>40</integer>
-							<key>PinConfigDefault</key>
-							<integer>1073742064</integer>
-						</dict>
-						<dict>
-							<key>NodeID</key>
-							<integer>41</integer>
-							<key>PinConfigDefault</key>
-							<integer>1073742064</integer>
-						</dict>
-						<dict>
-							<key>NodeID</key>
-							<integer>42</integer>
-							<key>PinConfigDefault</key>
-							<integer>1073742064</integer>
-						</dict>
-						<dict>
-							<key>NodeID</key>
-							<integer>43</integer>
-							<key>PinConfigDefault</key>
-							<integer>1073742064</integer>
-						</dict>
-						<dict>
-							<key>NodeID</key>
-							<integer>44</integer>
-							<key>PinConfigDefault</key>
-							<integer>2416967952</integer>
-						</dict>
-						<dict>
-							<key>NodeID</key>
-							<integer>45</integer>
-							<key>PinConfigDefault</key>
-							<integer>2416967954</integer>
-						</dict>
-						<dict>
-							<key>NodeID</key>
-							<integer>46</integer>
-							<key>PinConfigDefault</key>
-							<integer>1073742064</integer>
-						</dict>
-						<dict>
-							<key>NodeID</key>
-							<integer>47</integer>
-							<key>PinConfigDefault</key>
-							<integer>1073742064</integer>
-						</dict>
-						<dict>
-							<key>NodeID</key>
-							<integer>48</integer>
-							<key>PinConfigDefault</key>
-							<integer>1073742064</integer>
-						</dict>
-						<dict>
-							<key>NodeID</key>
-							<integer>49</integer>
-							<key>PinConfigDefault</key>
-							<integer>1073742064</integer>
-						</dict>
-						<dict>
-							<key>NodeID</key>
-							<integer>50</integer>
-							<key>PinConfigDefault</key>
-							<integer>1073742064</integer>
-						</dict>
-						<dict>
-							<key>NodeID</key>
-							<integer>51</integer>
-							<key>PinConfigDefault</key>
-							<integer>1073742064</integer>
-						</dict>
-						<dict>
-							<key>NodeID</key>
-							<integer>52</integer>
-							<key>PinConfigDefault</key>
-							<integer>11243568</integer>
-						</dict>
-						<dict>
-							<key>NodeID</key>
-							<integer>53</integer>
-							<key>PinConfigDefault</key>
-							<integer>1073742064</integer>
-						</dict>
-						<dict>
-							<key>NodeID</key>
-							<integer>54</integer>
-							<key>PinConfigDefault</key>
-							<integer>1073742064</integer>
-						</dict>
-						<dict>
-							<key>NodeID</key>
-							<integer>55</integer>
-							<key>PinConfigDefault</key>
-							<integer>1073742064</integer>
-						</dict>
-						<dict>
-							<key>NodeID</key>
-							<integer>56</integer>
-							<key>PinConfigDefault</key>
-							<integer>1073742064</integer>
-						</dict>
-						<dict>
-							<key>NodeID</key>
-							<integer>57</integer>
-							<key>PinConfigDefault</key>
-							<integer>1073742064</integer>
-						</dict>
-						<dict>
-							<key>NodeID</key>
-							<integer>58</integer>
-							<key>PinConfigDefault</key>
-							<integer>1073742064</integer>
-						</dict>
-						<dict>
-							<key>NodeID</key>
-							<integer>59</integer>
-							<key>PinConfigDefault</key>
-							<integer>1073742064</integer>
-						</dict>
-						<dict>
-							<key>NodeID</key>
-							<integer>60</integer>
-							<key>PinConfigDefault</key>
-							<integer>1073742064</integer>
-						</dict>
-						<dict>
-							<key>NodeID</key>
-							<integer>61</integer>
-							<key>PinConfigDefault</key>
-							<integer>1073742064</integer>
-						</dict>
-						<dict>
-							<key>NodeID</key>
-							<integer>62</integer>
-							<key>PinConfigDefault</key>
-							<integer>1073742064</integer>
-						</dict>
-						<dict>
-							<key>NodeID</key>
-							<integer>63</integer>
-							<key>PinConfigDefault</key>
-							<integer>1073742064</integer>
-						</dict>
-						<dict>
-							<key>NodeID</key>
-							<integer>64</integer>
-							<key>PinConfigDefault</key>
-							<integer>1073742064</integer>
-						</dict>
-						<dict>
-							<key>NodeID</key>
-							<integer>65</integer>
-							<key>PinConfigDefault</key>
-							<integer>1073742064</integer>
-						</dict>
-						<dict>
-							<key>NodeID</key>
-							<integer>66</integer>
-							<key>PinConfigDefault</key>
-							<integer>1073742064</integer>
-						</dict>
-						<dict>
-							<key>NodeID</key>
-							<integer>67</integer>
-							<key>PinConfigDefault</key>
-							<integer>1073742064</integer>
-						</dict>
-						<dict>
-							<key>NodeID</key>
-							<integer>68</integer>
-							<key>PinConfigDefault</key>
-							<integer>2426798336</integer>
-						</dict>
-						<dict>
-							<key>NodeID</key>
-							<integer>69</integer>
-							<key>PinConfigDefault</key>
-							<integer>1073742064</integer>
-						</dict>
-					</array>
-				</dict>
-				<dict>
-					<key>CodecID</key>
-					<integer>269714441</integer>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>Layouts</key>
-					<array>
-						<integer>14</integer>
-						<integer>15</integer>
-						<integer>16</integer>
-						<integer>54</integer>
-						<integer>55</integer>
-						<integer>57</integer>
-					</array>
-					<key>widgets</key>
-					<array>
-						<dict>
-							<key>NodeID</key>
-							<integer>69</integer>
-							<key>PinConfigDefault</key>
-							<integer>2426405121</integer>
-						</dict>
-					</array>
-				</dict>
 				<dict>
 					<key>CodecID</key>
 					<integer>269697544</integer>
@@ -848,53 +586,6 @@
 					<integer>1</integer>
 					<key>Layouts</key>
 					<array>
-						<integer>108</integer>
-						<integer>131</integer>
-					</array>
-					<key>widgets</key>
-					<array>
-						<dict>
-							<key>NodeID</key>
-							<integer>23</integer>
-							<key>PinConfigDefault</key>
-							<integer>9121792</integer>
-						</dict>
-						<dict>
-							<key>NodeID</key>
-							<integer>34</integer>
-							<key>PinConfigDefault</key>
-							<integer>13361168</integer>
-						</dict>
-					</array>
-				</dict>
-				<dict>
-					<key>CodecID</key>
-					<integer>269697544</integer>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>Layouts</key>
-					<array>
-						<integer>121</integer>
-						<integer>127</integer>
-						<integer>129</integer>
-					</array>
-					<key>widgets</key>
-					<array>
-						<dict>
-							<key>NodeID</key>
-							<integer>34</integer>
-							<key>PinConfigDefault</key>
-							<integer>13361168</integer>
-						</dict>
-					</array>
-				</dict>
-				<dict>
-					<key>CodecID</key>
-					<integer>269697544</integer>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>Layouts</key>
-					<array>
 						<integer>120</integer>
 					</array>
 					<key>widgets</key>
@@ -915,44 +606,6 @@
 					<key>Layouts</key>
 					<array>
 						<integer>121</integer>
-					</array>
-					<key>widgets</key>
-					<array>
-						<dict>
-							<key>NodeID</key>
-							<integer>34</integer>
-							<key>PinConfigDefault</key>
-							<integer>3502637120</integer>
-						</dict>
-					</array>
-				</dict>
-				<dict>
-					<key>CodecID</key>
-					<integer>269697544</integer>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>Layouts</key>
-					<array>
-						<integer>127</integer>
-					</array>
-					<key>widgets</key>
-					<array>
-						<dict>
-							<key>NodeID</key>
-							<integer>34</integer>
-							<key>PinConfigDefault</key>
-							<integer>3502637120</integer>
-						</dict>
-					</array>
-				</dict>
-				<dict>
-					<key>CodecID</key>
-					<integer>269697544</integer>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>Layouts</key>
-					<array>
-						<integer>129</integer>
 					</array>
 					<key>widgets</key>
 					<array>
@@ -1057,7 +710,6 @@
 						<integer>6</integer>
 						<integer>7</integer>
 						<integer>122</integer>
-						<integer>130</integer>
 					</array>
 					<key>widgets</key>
 					<array>
@@ -1095,7 +747,7 @@
 		</dict>
 	</dict>
 	<key>NSHumanReadableCopyright</key>
-	<string>AppleHDAHardwareConfigDriver 276.26, Copyright © 2000-2016 Apple Inc. All rights reserved.</string>
+	<string>AppleHDAHardwareConfigDriver 2.6.3f4, Copyright © 2000-2014 Apple Inc. All rights reserved.</string>
 	<key>OSBundleLibraries</key>
 	<dict>
 		<key>com.apple.kpi.iokit</key>
